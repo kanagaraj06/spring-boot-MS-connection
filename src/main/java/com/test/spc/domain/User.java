@@ -6,12 +6,12 @@ import javax.annotation.Generated;
 import javax.persistence.*;
 
 @Entity
-@Table(schema = "mobile",name = "test")
+@Table(schema = "mobile",name = "user_info")
 public class User {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name = "Id")
+	@Column(name = "id")
 	private Integer Id;
 
 	@Column(name = "name")
